@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-ppo-in-post-training",
+        
+          title: "PPO in post training",
+        
+        description: "learning RLHF",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/rlhf/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
