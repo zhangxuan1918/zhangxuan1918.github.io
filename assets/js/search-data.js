@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-ppo-in-post-training",
+        },{id: "post-grpo-experiments",
+        
+          title: "GRPO Experiments",
+        
+        description: "running GRPO experiments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/grpo/";
+          
+        },
+      },{id: "post-ppo-in-post-training",
         
           title: "PPO in post training",
         
