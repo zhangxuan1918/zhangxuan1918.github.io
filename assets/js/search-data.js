@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-grpo-experiments",
+        },{id: "post-moe",
+        
+          title: "MoE",
+        
+        description: "Mixture of Experts",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/moe/";
+          
+        },
+      },{id: "post-grpo-experiments",
         
           title: "GRPO Experiments",
         
