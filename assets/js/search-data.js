@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-moe",
+        },{id: "post-steepest-descent-or-ascent",
+        
+          title: "Steepest descent or ascent",
+        
+        description: "Optimization",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/steepest/";
+          
+        },
+      },{id: "post-moe",
         
           title: "MoE",
         
