@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-steepest-descent-or-ascent",
+        },{id: "post-ddpm-vs-ddim",
+        
+          title: "DDPM vs DDIM",
+        
+        description: "Diffusion model",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ddpm/";
+          
+        },
+      },{id: "post-steepest-descent-or-ascent",
         
           title: "Steepest descent or ascent",
         
